@@ -25,6 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import /vendor/etc/init/hw/ueventd.okcar.rc
+
 # Firmware directory Path
 # Below macro will be read by uevent and path will
 # be added to search path for firmware loading
@@ -363,13 +365,6 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware/
 
 # Kmsg device
 /dev/kmsg                                               0620   root       system
-
-# Hid
-/dev/hidg0             0660   system       system
-
-# Okcar
-/dev/okcar             0660   system       system
-
 
 # LED class devices
 /sys/class/leds/red      delay_on     0640    system    system
