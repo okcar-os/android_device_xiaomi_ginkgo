@@ -9,6 +9,6 @@
     },
     {
         "repository":   "android_vendor_miuicamera_ginkgo",
-        "target_path":  "vendor/miuicamera_ginko"
+        "target_path":  "vendor/miuicamera_ginkgo"
     }
 ]
